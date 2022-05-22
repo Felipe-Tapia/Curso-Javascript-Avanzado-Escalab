@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pokedex</title>
+</head>
+<body>
+    <header>
+        <navbar>
+            <img src="./assets/avatar.png" alt="">
+            <div>
+                <input type="text">
+                <button>buscar</button>
+            </div>
+            <img src="./assets/pokebola.png" alt="">
+        </navbar>
+    </header>
+    <section></section>
+    <footer></footer>
+    <button class="prev-pag">Anterior</button>
+    <button class="next-pag">Siguiente</button>
+    <article id="container"></article>
+
+
+    <!-- Template -->
+    <template id="template-cards">
+        <div class="card-pkmn">
+            <img src="" alt="">
+            <img src="./assets/te-tengo.png" style="display:none" alt="">
+            <p id="id-pkmn">Id</p>
+            <h2 id="name"></h3>
+            <h3 id="type"></h3>
+            <p id="height">altura</p>
+            <p id="weight">peso</p>
+            <button>Atrapar</button>
+        </div>
+    </template>
+
+    <template id="pokedex">
+        <div class="card-pkmn">
+            <img src="" alt="">
+            <h2 id="name"></h3>
+            <button>Liberar</button>
+        </div>
+    </template>
+    <script src="main.js"></script>
+</body>
+</html>

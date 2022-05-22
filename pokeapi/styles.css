@@ -1,0 +1,30 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+body{
+    background-color: rgb(19, 23, 29);
+}
+.card-pkmn{
+    height: 350px;
+    background-color: rgb(191, 237, 255);
+    width: 200px;
+    margin: 10px;
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+}
+article{
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    margin: auto;
+}
+img{
+    width: 100px;
+}
+navbar{
+    display: flex;
+    width: 100%;
+    justify-content:space-around;
+}
