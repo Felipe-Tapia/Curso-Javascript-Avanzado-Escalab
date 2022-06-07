@@ -17,7 +17,7 @@ body{
 article{
     display: flex;
     flex-wrap: wrap;
-    width: 800px;
+    width: 90vw;
     margin: auto;
 }
 img{
@@ -27,4 +27,18 @@ navbar{
     display: flex;
     width: 100%;
     justify-content:space-around;
+}
+#solo-card-container .card-pkmn{
+    background-color:rgb(219, 219, 219);
+    position:absolute;
+    top:20%;
+    left:30%;
+    width:500px;
+    height:70vh;
+}
+#contenedor-pokedex{
+    position:absolute;
+}
+.card-pkmn-pkx{
+    background-color:white;
 }

@@ -9,17 +9,17 @@
 </head>
 <body>
     <header>
-        <navbar>
             <img src="./assets/avatar.png" alt="">
             <div>
                 <input type="text" id="buscador-pkmn">
                 <button id="buscador-btn">buscar</button>
             </div>
             <div>
-                <img src="./assets/pokebola.png" alt="">
-                <div id="contenedor-pokedex"></div>
+                <button class="abrir-carrito">
+                    <img src="./assets/pokebola.png" alt="">
+                </button>
+                <div id="contenedor-pokedex" style="display:none"></div>
             </div>
-        </navbar>
     </header>
     <section></section>
     <footer></footer>
@@ -36,7 +36,7 @@
             <img src="" alt="">
             <img src="./assets/te-tengo.png" style="display:none" alt="" id="gotcha-img">
             <p id="id-pkmn">Id</p>
-            <h2 id="name"></h3>
+            <h2 class="name"></h3>
             <h3 id="type"></h3>
             <p id="height">altura</p>
             <p id="weight">peso</p>
@@ -46,21 +46,23 @@
 
     <template id="template-solo-card">
         <div class="card-pkmn">
+            <button class="cerrar">x</button>
             <img src="" alt="">
             <img src="./assets/te-tengo.png" style="display:none" alt="" id="gotcha-img">
-            <p id="id-solo-pkmn">Id</p>
-            <h2 id="solo-name"></h3>
-            <h3 id="solo-type"></h3>
-            <p id="solo-height">altura</p>
-            <p id="solo-weight">peso</p>
+            <p class="id">Id</p>
+            <h2 class="name"></h3>
+            <h3 class="type"></h3>
+            <p class="height">altura</p>
+            <p class="weight">peso</p>
+            <p class="description">Descripcion</p>
             <button class ="gotcha">Atrapar</button>
         </div>
     </template>
 
     <template id="pokedex">
-        <div class="card-pkmn">
+        <div class="card-pkmn-pkx">
             <img src="" alt="">
-            <h2 id="name"></h3>
+            <h2 class="name">nombre</h2>
             <button>Liberar</button>
         </div>
     </template>

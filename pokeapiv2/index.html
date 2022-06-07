@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Pokeapi</title>
+</head>
+<body>
+    <header>
+        <navbar>
+            <!-- <img src="./assets/avatar.png" alt=""> -->
+            <div>
+                <input type="text" id="buscador-pkmn">
+                <button id="buscador-btn">buscar</button>
+            </div>
+            <div>
+                <button class="abrir-carrito">
+                    <!-- <img src="./assets/pokebola.png" alt=""> -->
+                </button>
+                <div id="contenedor-pokedex" style="display:none"></div>
+            </div>
+        </navbar>
+        <div class="container-solo-card"></div>
+    </header>
+    <div class="pagination">
+        <button class="prev-btn hidden"><</button>
+        <button class="next-btn">></button>
+    </div>
+    <article id="solo-card-container"></article>
+    <article id="container"></article>
+    <footer id="footer"></footer>
+
+    <template id="template-cards">
+        <div class="card-pkmn">
+            <p id="id-pkmn">Id</p>
+            <h2 class="name"></h3>
+            <img src="" alt="">
+            <!-- <img src="./assets/te-tengo.png" style="display:none" alt="" id="gotcha-img"> -->
+            <div class="info-card">
+                <h3 id="type"></h3>
+                <p id="height">altura</p>
+                <p id="weight">peso</p>
+                <button class="ver">Ver</button>
+            </div>
+        </div>
+    </template>
+
+    <template id="template-description">
+        <div class="card-pkmn-solo">
+            <div class="solocard-left">
+                <!-- <img src="./assets/te-tengo.png" style="display:none" alt="" id="gotcha-img"> -->
+                <p class="id">Id</p>
+                <h2 class="name"></h3>
+                <h3 class="type"></h3>
+                <p class="height">altura</p>
+                <p class="weight">peso</p>
+                <p class="description">Descripcion</p>
+                <button class ="gotcha">Atrapar</button>
+            </div>
+            <div class="solocard-right">
+                <button class="cerrar">x</button>
+                <img src="" alt="">
+            </div>
+        </div>
+    </template>
+
+    <template id="template-carrito">
+        <div class="card-pkmn-carrito">
+                <!-- <img src="./assets/te-tengo.png" style="display:none" alt="" id="gotcha-img"> -->
+                <h2 class="name"></h3>
+                <img src="" alt="">
+                <button class="liberar">liberar</button>
+        </div>
+    </template>
+    <div class="loader" id="loader"></div>
+    <script src="./js/index.js" type="module"></script>
+
+</body>
+</html>
