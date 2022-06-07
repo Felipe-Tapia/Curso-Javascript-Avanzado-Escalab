@@ -17,10 +17,6 @@ export const getPagination = async () => {
     }catch (error) {
         console.log(error)
     }
-    if(localStorage.getItem('.bolsa')){
-        bolsa = JSON.parse(localStorage.getItem('bolsa'));
-        pintaBolsa()
-    }
 }
 
 export const getPokemon = async id => {

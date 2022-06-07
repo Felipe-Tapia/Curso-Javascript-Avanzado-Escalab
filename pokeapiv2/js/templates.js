@@ -48,7 +48,7 @@ export const templateSoloCards = data => {
 
 export const pintaBolsa = data => {
     Object.values(data).forEach(pokemon => {
-        const newLocal = pokemon.nombre;
+        const newLocal = pokemon.name;
         templateBolsa.querySelector('.name').textContent = newLocal
     })
 
@@ -56,5 +56,5 @@ export const pintaBolsa = data => {
     fragment.appendChild(clone)
     contenedorBolsa.appendChild(fragment)
 
-    localStorage.setItem('bolsa', JSON.stringify(bolsa))
+    localStorage.setItem('bolsaStorage', JSON.stringify(bolsa))
 }

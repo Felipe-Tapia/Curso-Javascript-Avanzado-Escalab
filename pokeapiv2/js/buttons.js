@@ -31,7 +31,7 @@ const agregarBolsa = e => {
 
 const setBolsa = objeto => {
     const capturado = {
-        nombre : objeto.querySelector('.name').textContent,
+        name : objeto.querySelector('.name').textContent,
         id: objeto.querySelector('.gotcha').dataset.id
     }
     
