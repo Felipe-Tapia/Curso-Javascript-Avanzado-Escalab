@@ -33,8 +33,7 @@ Requerimiento Funcional:
 
 #Trabajo 3: Conectandose a una API OAuth
 
-La tarea consiste en comunicarse con una API tipo OAuth2.
-OAuth es un estándar de autorización para aplicaciones, que permite autenticar y autorizar a usuarios de distintas formas.
 
 Requerimiento Funcional:
-Mostrar una cadena de texto por consola que concatene el token_type y el access_token con un espacio al medio.
+
+- Mostrar una cadena de texto por consola que concatene el token_type y el access_token con un espacio al medio.
