@@ -6,7 +6,7 @@
 #Trabajo 2: Pokeapi
 
 #Trabajo 3: Conectandose a una API OAuth
-La tarea consiste en comunicarse con una API tipo OAuth2.
+#La tarea consiste en comunicarse con una API tipo OAuth2.
 OAuth es un estándar de autorización para aplicaciones, que permite autenticar y autorizar a usuarios de distintas formas.
 
 Requerimiento funcional:
