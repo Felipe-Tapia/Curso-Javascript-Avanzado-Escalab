@@ -47,14 +47,15 @@ export const templateSoloCards = data => {
 }
 
 export const pintaBolsa = data => {
+
     Object.values(data).forEach(pokemon => {
         const newLocal = pokemon.name;
         templateBolsa.querySelector('.name').textContent = newLocal
     })
-
     const clone = templateBolsa.cloneNode(true)
     fragment.appendChild(clone)
     contenedorBolsa.appendChild(fragment)
 
     localStorage.setItem('bolsaStorage', JSON.stringify(bolsa))
+    console.log(bolsa);
 }
