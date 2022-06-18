@@ -46,10 +46,10 @@ Requerimiento Funcional:
 - El backend de esta aplicación ya está programado, debemos desarrollar sólo el front.
 - El acceso a ciertas partes de la aplicación debe estar protegido por usuario y contraseña
 - Deben existir tres tipos de usuarios: guest, user y admin
---El guest es un usuario sin acceder. Sólo puede ver el menú.
---El user puede hacer lo mismo que guest, además de tomar pedidos e ingresarlos
---El admin puede hacer lo mismo que el user, además de ver los user y admin registrados
+- - El guest es un usuario sin acceder. Sólo puede ver el menú.
+- - El user puede hacer lo mismo que guest, además de tomar pedidos e ingresarlos
+- - El admin puede hacer lo mismo que el user, además de ver los user y admin registrados
 - La aplicación frontend se compone de las siguientes vistas:
---Página de inicio: Menú de productos y sus valores. Contiene un formulario de ingreso por usuario y contraseña
---Toma de pedidos: Listado de productos donde podemos señalar la cantidad que el cliente desea de cada uno. Al final del listado indica el precio total que se actualiza cada vez que agregamos o quitamos un producto.
---Vista de usuarios: Listado de usuarios tipo user y admin. Se muestra fotografía, nombre y rol.
+- - Página de inicio: Menú de productos y sus valores. Contiene un formulario de ingreso por usuario y contraseña
+- - Toma de pedidos: Listado de productos donde podemos señalar la cantidad que el cliente desea de cada uno. Al final del listado indica el precio total que se actualiza cada vez que agregamos o quitamos un producto.
+- - Vista de usuarios: Listado de usuarios tipo user y admin. Se muestra fotografía, nombre y rol.
