@@ -1,0 +1,11 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+header{
+    background-image: url(./assets/background-img-users.png);
+    background-repeat: no-repeat, repeat;
+    background-position: center; 
+    background-size: cover;
+}    
