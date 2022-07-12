@@ -1,0 +1,147 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rufina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,100&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.interFont{
+    font-family: 'Inter', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,button{
+    font-family: 'Rufina', serif;
+}
+p, div{
+  font-family: 'Lato', sans-serif;  
+}
+.dFlex{
+    display: flex;
+}
+.centerTitle{
+    text-align: center;
+    font-size:4rem;
+    margin: 4rem auto;
+}
+/* !=========================HEADER============================= */
+header{
+    background:url("/coffeeAppv2/assets/bg-index.png") no-repeat center; 
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.navSuperior{
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100vw - rem);
+    padding: 1rem 7rem;
+    height: 20vh;
+    background-color:rgba(0,0,0,0.4);
+}
+.navSuperior .imgLogo{
+    max-width: 70%;
+}
+.navSuperior .sesionNavbar{
+    width: 50vw;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+}
+.navSuperior .sesionNavbar p {
+    color: #fff;
+}
+.sesionNavbar a button{
+    background-color: transparent;
+    color: #fff;
+    padding: 1rem;
+    border: 2px solid #fff;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+.sesionNavbar a button:hover{
+    background-color: rgba(0,0,0,0.5);
+}
+.seoSection{
+    width: calc(100vw - 17rem);
+    padding: 1rem 7rem;
+    height: 40vh;
+    color: #fff;
+    flex-direction: column;
+    justify-content: center;
+}
+.seoSection h1{
+    font-size:7.5rem
+}
+.seoSection h3{
+    font-size:2.5rem
+}
+.schedules{
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    width: 90vw;
+    height: 20vh;
+}
+.schedules .infoHr{
+    justify-content:space-between;
+    gap:15rem;
+    font-size: 1.5rem;
+    padding: 0.7rem 0;
+    border-bottom: 4px dotted #fff;
+}
+.schedules .hrDescription p{
+    font-size: 1.5rem;
+    padding: 0.4rem 0;
+}
+
+
+/* !=========================FIN HEADER============================= */
+
+.menusSection{
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.menusSection img{
+    max-width: 90%;
+}
+.menusSection .sectionData{
+    width: 40%
+}
+.menusSection .sectionImg{
+    width: 40%;
+    display: flex;
+    justify-content:center;
+}
+.card-content{
+    padding-top: 0px
+}
+.priceList{
+    width:100%;
+    text-align: right;
+    border-bottom: 4px dotted;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+.nameList{
+    font-size:3rem
+}
+.verMasBtn{
+    background-color: #fff;
+    font-size: 1.5rem;
+    padding:0.3rem;
+    margin: 2rem 0;
+    cursor: pointer;
+}
+.verMasBtn:hover{
+    background-color: rgba(0,0,0,0.8);
+    color: #fff;
+}
+
+/* !=========================SECTION============================= */
+/* !=========================FIN SECTION============================= */
+/* !=========================HEADER============================= */
+/* !=========================HEADER============================= */
